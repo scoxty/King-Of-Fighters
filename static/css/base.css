@@ -1,0 +1,94 @@
+#background {
+    width: 100%;
+    height: 720px;
+    background-color: brown;
+}
+
+#kof {
+    /* 16:9 */
+    width: 1280px;
+    height: 720px;
+    background-image: url('/static/images/background/3335d5a430215ce25346cc969cbc0e78.gif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kof>.kof-head {
+    width: 1280px;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#kof>.kof-head>.kof-head-hp-0 {
+    width: calc(1280px / 2 - 60px);
+    height: 40px;
+    margin-left: 20px;
+    border: white 5px solid;
+    border-right: none;
+    box-sizing: border-box;
+}
+
+#kof>.kof-head>.kof-head-hp-0>div {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    float: right;
+}
+
+#kof>.kof-head>.kof-head-hp-0>div>div {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    float: right;
+}
+
+
+#kof>.kof-head>.kof-head-timer {
+    width: 80px;
+    height: 60px;
+    background-color: orange;
+    border: white 5px solid;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;
+}
+
+#kof>.kof-head>.kof-head-hp-1 {
+    width: calc(1280px / 2 - 60px);
+    height: 40px;
+    border: white 5px solid;
+    border-left: none;
+    box-sizing: border-box;
+}
+
+#kof>.kof-head>.kof-head-hp-1>div {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+#kof>.kof-head>.kof-head-hp-1>div>div {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+#kof>.tip {
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    color: RGB(254, 230, 94);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
