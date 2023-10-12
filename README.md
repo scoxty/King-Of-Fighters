@@ -1,4 +1,4 @@
-# King_Of_Fighters
+# King-Of-Fighters
 简易拳皇项目，用于练习html+css+JavaScript
 ## 效果展示:
 ![image](https://github.com/sco-xty/King_Of_Fighters/assets/95528203/abf0de2e-1681-4d08-a3be-391438d267c0)
